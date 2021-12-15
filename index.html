@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="style.css">
   
   <title>Dummy Data</title>
 </head>
@@ -12,19 +12,19 @@
 
 
 
-    <button onclick="fetchTodos(this.fetchTodos)">Fetch Todos</button>
+    <button onclick="fetchTodos(fetchTodos(this.fetchTodos))">Fetch Todos</button>
 
-    <button onclick="logTodos()">Log Todos</button>
+    <button onclick="logTodos(logTodos(this.logTodos))">Log Todos</button>
 
-    <button onclick="populateTodos()">Populate Todos</button>
+    <button onclick="populateTodos(populateTodos(this.populateTodos))">Populate Todos</button>
 
-    <ol id="toDos">
-
-        <li id="todos-One"></li>
-        <li id="todos-Two"></li>
-        <li id="todos-Three"></li>
-        <li id="todos-Four"></li>
-    <!-- LIs will go here -->
+    <ol id="todo-list">
+      
+      <li id="userId"></li>
+      <li id="id"></li>
+      <li id="title"></li>
+      <li id="completed"></li>
+    
 
     </ol>
 
