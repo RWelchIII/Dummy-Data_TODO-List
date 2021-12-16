@@ -18,7 +18,11 @@
 
     <button onclick="populateTodos(populateTodos(this.populateTodos))">Populate Todos</button>
 
+    <button onclick ="clearResult()" type="reset">Clear</button>
+    
     <ol id="todo-list">
+    
+      <input type="number" id="userId" name="result" placeholder="userId" onkeyup="filterUserID(this.value)">
       
       <li id="userId"></li>
       <li id="id"></li>
