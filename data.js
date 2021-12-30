@@ -48,7 +48,7 @@ const fetchTodos = () => {
         let ol = document.getElementById('todo-list');
 
         for (let i = 0; i < result.length; i++) {
-            const  = array[i];
+            const  = arrayOfTodos[i];
             
         }
 
